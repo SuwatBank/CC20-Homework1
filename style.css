@@ -134,14 +134,10 @@ textarea{
   margin: 2px;
 }
 
-.send:hover {
+.send:hover, .clear:hover{
   background-color: lightblue;
   color: white;
-}
-
-.clear:hover{
-  background-color: lightblue;
-  color: white;
+  cursor: pointer;
 }
 
 footer{
