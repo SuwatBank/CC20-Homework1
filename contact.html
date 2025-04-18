@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a class="topnav" href="./index.html">Home</a>
+    <a class="topnav" href="./education.html">Education</a>
+    <a class="topnav" href="./work.html">Work Experience</a>
+    <a class="topnav" href="javascript:">Contact</a>
+  </nav>
+  <h1 class="header">Contact me</h1>
+  <div class="contact">
+    <p class="descript_contact">Enter your info</p>
+    <form action="#">
+      <label for="fname">First name</label><br>
+      <input class="firstname" type="text" id="fname" name="first_name" placeholder="Input your first name"><br>
+      <label for="lname">Last name</label><br>
+      <input class="lastname" type="text" id="lname" name="last_name" placeholder="Input your last name"><br>
+      <label for="gender">Gender</label><br>
+      <select name="genderL" id="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+      <br>
+      <label for="message">Message</label><br>
+      <textarea name="information" id="message" placeholder="Insert more information"></textarea>
+      <br>
+      <div class="button">
+        <input class="send" type="submit" value="Send">
+        <input class="clear" type="reset" value="Clear">
+      </div>
+    </form>
+  </div>
+</body>
+</html>

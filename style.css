@@ -1,0 +1,166 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #FFECD8;
+}
+.header{
+  margin: 15px;
+}
+
+p{
+  margin: 15px 30px;
+}
+.navbar{
+  background-color: #afddff;
+  padding-left: 10px;
+}
+.navbar > *{
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  margin: 15px 2px 15px 2px;
+  border: 2px solid #60B5FF;
+  border-radius: 3px;
+  padding: 5px;
+  background-color: #60B5FF;
+}
+
+.topnav:hover {
+  background-color: lightblue;
+  border: 2px solid lightblue;
+  color: white;
+}
+
+.profile_picture{
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  padding-top: 5px;
+  border-radius: 50%;
+  background-color: #afddff;
+}
+
+span{
+  text-decoration: none;
+}
+
+.list{
+  margin: 20px 30px 20px 50px;
+  list-style-type: circle;
+}
+
+footer{
+  margin-bottom: 10px;
+}
+
+.edupic, .workpic{
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+table{
+  width: 80%;
+  margin-top: 20px;
+  margin-left: 20px;
+  border: 1px solid black;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.edu_list,.edu_list tr,.edu_list th,.edu_list td{
+  border: 1px solid black;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.edu_list td{
+  text-align: left;
+}
+
+.work_list th{
+  background-color: #60B5FF;
+  border: 1px solid black;
+  padding: 12px;
+}
+
+.work_list td{
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.contact{
+  width: 50%;
+  border: 1px solid black;
+  margin: 25px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.descript_contact{
+  margin: 10px 0px;
+}
+
+.firstname, .lastname{
+  margin: 10px;
+  width: 50%;
+  height: 30px;
+}
+
+select{
+  margin: 10px;
+  padding: 5px;
+  width: 30%;
+}
+
+textarea{
+  margin: 10px;
+  width: 300px;
+  height: 200px;
+}
+.button{
+  margin: 10px;
+}
+.send, .clear{
+  background-color: #60B5FF;
+  font-size: 15px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 2px;
+}
+
+.send:hover {
+  background-color: lightblue;
+  color: white;
+}
+
+.clear:hover{
+  background-color: lightblue;
+  color: white;
+}
+
+footer{
+  background-color: #afddff;
+  margin: 5px 0px 0px 0px;
+  padding: 15px;
+}
+
+.footerlink{
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  border: 1px solid #60B5FF;
+  background-color: #60B5FF;
+  border-radius: 3px;
+}
+
+.footerlink:hover {
+  background-color: lightblue;
+  border: 2px solid lightblue;
+  color: white;
+}
